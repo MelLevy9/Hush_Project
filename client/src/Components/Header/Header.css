@@ -1,0 +1,141 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 77px;
+    background-color: #2b6777;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  }
+
+  .logo {
+    padding-left: 15px;
+  }
+  
+  .logo .hush {
+    font-size: 36px;
+    position: absolute;
+    padding-top: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+.logoPic {
+    max-height: 60px;
+    padding-left: 0;
+}
+
+.user-profile {
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
+.search-container input {
+  margin: 0px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.navbar-links {
+  margin-top: 15px;
+}
+
+  .navbar-links ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+
+  li {
+    padding: 2px;
+    text-align: center;
+  }
+
+  .navbar-links li a{
+    margin: 0 10px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.navbar-links li:hover {
+    text-decoration: underline;
+}
+  
+  #dropdown-basic-button {
+    background-color: #2b6777 !important;
+    border: 0;
+    display: inline-block;
+  }
+
+  .dropdownItem {
+    color: black !important;
+    text-align: center !important;
+    border-radius: 5px !important;
+  }
+
+  .hamburger-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: 0.4s;
+  }
+
+  
+  @media only screen and (max-width: 768px) {
+    .navbar-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #2b6777;
+      color: white;
+      text-align: center;
+    }
+  
+    .navbar-links.show {
+      display: flex;
+    }
+  
+    .navbar-links ul {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .navbar-links li {
+        padding-bottom: 20px;
+      }
+
+      .search-container {
+        position: relative;
+    }
+    
+    .search-container input {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+  
+    .hamburger-icon {
+        padding: 10px 20px;
+      display: flex;
+    }
+  }
+

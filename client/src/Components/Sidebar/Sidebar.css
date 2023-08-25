@@ -1,0 +1,36 @@
+.offcanvas-start {
+    width: 250px;
+    background-color: #c8d8e4 !important;
+    margin-top: 77px !important;
+    margin-bottom: 60px !important;
+  }
+
+  .background-image {
+    text-align: center;
+    margin-top: 30px;
+    width: 130px;
+    height: auto;
+    opacity: 0.9;
+    border-radius: 300px;
+    box-shadow: 10px 10px 20px #2b6777;
+  }
+
+  .SideBtn {
+    margin-top: 5px;
+    font-size: 27px;
+    border: #c8d8e4 solid 1px !important;
+  }
+
+  .sidediv {
+    display: inline;
+  }
+
+  .offcanvas-title {
+    padding-top: 20px;
+    font-size: 27px;
+    font-weight: 600;
+  }
+
+  .offcanvas-body{
+    font-weight: 600;
+  }

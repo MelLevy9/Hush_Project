@@ -1,0 +1,40 @@
+.postTitle {
+    font-weight: bold;
+    font-size: 33px;
+    color: #2b6777;
+}
+
+.bodyText {
+    font-size: 16px;
+    color: #2b6777;
+}
+
+.PostDetails {
+    padding-top: 50px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 200px;
+}
+
+.PostDetails div textarea {
+    width: 90%;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.titleInput {
+    height: 100px;
+}
+
+.contentInput {
+    height: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+    .PostDetails {
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+    }
+}

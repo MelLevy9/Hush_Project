@@ -1,0 +1,19 @@
+.LoggedIn {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+  margin-right: 10px;
+}
+
+.LoggedIn .signout-icon {
+  height: 16px;
+  cursor: pointer;
+  transition: transform 0.5s;
+  transform: rotate(0deg);
+}
+
+.LoggedIn .signout-icon:hover {
+  transition: transform 0.5s;
+  transform: rotate(90deg);
+}

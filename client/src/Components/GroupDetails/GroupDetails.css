@@ -1,0 +1,19 @@
+.groupTitle {
+    font-size: 60px;
+    font-weight: 800;
+    color: #2b6777;
+}
+
+.GroupDetails div button {
+    margin: 10px;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+    background-color: #6bd8c1;
+    border-radius: 10px;
+    border: white solid 1px;
+}
+
+.GroupDetails button:active {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        border: 2px solid #00ff40;
+}

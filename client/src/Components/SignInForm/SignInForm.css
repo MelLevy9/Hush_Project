@@ -1,0 +1,23 @@
+label {
+    font-size: 18px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+input {
+    border-radius: 10px;
+}
+
+form > button {
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+form > label {
+    color: #2b6777;
+}
+
+form > img {
+    max-width: 200px;
+}

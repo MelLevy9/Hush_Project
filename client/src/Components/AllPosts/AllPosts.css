@@ -1,0 +1,51 @@
+.AllPosts {
+  text-align: center;
+}
+
+.AllPosts ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.AllPosts li {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 35px;
+  margin-top: 5px;
+  padding: 15px;
+  cursor: pointer;
+  color: #2b6777;
+  background-color: #c8d8e4;
+  border-radius: 10px;
+  box-shadow: gray 10px 10px 10px;
+  transition: transform 0.3s;
+  transform: translateX(0px);
+}
+
+.AllPosts li:hover {
+  transition: transform 0.3s;
+  transform: translateX(30px);
+}
+
+li .postTitle {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 15px 25px;
+}
+
+.pageNum {
+  display: inline;
+  margin: 0 20px;
+  font-size: 33px;
+  font-weight: 700;
+  color: #2b6777;
+}
+
+.pageButton {
+  border: none;
+  font-size: 33px;
+  color: #2b6777;
+  background-color: #f2f2f2;
+}
